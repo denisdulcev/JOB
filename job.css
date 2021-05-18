@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.features {
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.important {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+.text-important {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-important > p,
+.text-job > p,
+.text-recruiters > p {
+  color: #acacac;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.text-important > h1,
+.text-job > h1,
+.text-recruiters > h1 {
+  font-size: 25px;
+  color: #161a1e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text-important > h2,
+.text-recruiters > h2 {
+  font-size: 12px;
+  color: #acacac;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url('fondo.png');
+  margin-bottom: 70px;
+}
+.img-a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-a> img {
+  width: 50%;
+  position: relative;
+  top: 40px;
+  right: 5%;
+  
+}
+/*JOBS*/
+.jobs,
+.text-job {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url('fondo.png');
+  margin-bottom: 70px;
+}
+.img-b{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-b> img {
+  width: 50%;
+  position: relative;
+  top: 40px;
+  right: 5%;
+}
+.text-job > h2 {
+  font-size: 12px;
+  color: #acacac;
+  margin-bottom: 60px;
+}
+/*recruiters*/
+.recruiters, .text-recruiters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.img3{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url('fondo.png');
+  margin-bottom: 70px;
+}
+.img-c{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-c> img {
+  width: 50%;
+  position: relative;
+  top: 40px;
+  right: 5%;
+}
+/*waiting*/
+.waiting {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ff5d51;
+  border-radius: 20px;
+}
+.text-waiting {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.icons-apple {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-bottom: 10px;
+}
+.apple{
+  width:300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.icons-apple > i, .icons-store > i {
+  width: 100%;
+  font-size: 30px;
+}
+.apple > h4, .store > h4 {
+  width: 50%;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #acacac;
+}
+.apple > h3, .store > h3 {
+  width: 100%;
+  font-size: 10px;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons-store {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.store{
+  width:300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-waiting > img {
+  width: 300px;
+}
+.contact > h1 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.text-waiting > h2 {
+  font-size: 18px;
+  color: #DBDBDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 703px) {
+  .features{
+    width: 100%;
+    padding-top: 40px;
+  }
+  .important {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+  .text-important{
+      display: flex;
+      align-items: stretch;
+      padding: 0px 200px 0px 0px;
+  }
+  .text-important > p{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .text-important > h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .text-important > h2{
+    font-size: 20px;
+  }
+  .img{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 70px;
+  }
+  .img-a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-a> img {
+    width: 50%;
+    position: relative;
+    top: 40px;
+  }
+  /*JOBS*/
+  .jobs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .text-job {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 00px 0px 0px 100px;
+  }
+  .img2{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 70px;
+  }
+  .img-b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-b> img {
+    width: 50%;
+    position: relative;
+    top: 40px;
+    
+  }
+  .text-job > h2 {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .text-job > p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: end;
+  }
+  .text-job > h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .recruiters{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .text-recruiters {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .text-recruiters > p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.text-recruiters > h1 {
+  width: 60%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.text-recruiters > h2 {
+    width: 70%;
+  font-size: 20px;
+}
+.img3{
+  width: 60%;
+  height: 60%;
+  margin-bottom: 70px;
+}
+.img-c{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-c> img {
+  width: 50%;
+  position: relative;
+  top: 40px;
+}
+  /*waiting*/
+  .waiting {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .text-waiting {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .icons-apple {
+    font-weight: 400;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .icons-apple > i, .icons-store > i {
+    width: 100%;
+    font-size: 30px;
+  }
+  .apple > h4, .store > h4 {
+    width: 50%;
+    font-size: 13px;
+  }
+  .apple > h3, .store > h3 {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .icons-store {
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .text-waiting > img {
+    width: 30%;
+    display: flex;
+    justify-content: start;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact > h1 {
+      width: 70%;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+    margin-bottom: 30px;
+  }
+  .text-waiting > h2 {
+      width: 30%;
+    font-size: 20px;
+    color: #DBDBDB;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .icons{
+    width: 100%;
+  }
+}
